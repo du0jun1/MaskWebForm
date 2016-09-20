@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="5d72fb8b-e7c1-4f01-b08a-92f6c89fda32" name="MasterFormJsClass" linkedPackageId="6a95193d-9fde-4412-bda8-6751d5f60090" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="de86839f-db9e-4727-a01c-15e674c52635" name="Container" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="882e603c-7792-44b9-9ae9-c15598b378d0" />
+        <ownedAttributesInternal>
+          <property Id="bbb9ba8f-674b-4930-83de-c312c86d39c6" name="Model" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="252281c0-a574-40cf-9149-7a26e159b40b" />
+          </property>
+          <property Id="8b97401e-fbf6-4778-af30-40ea4b554050" name="Template" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7422f940-af32-452e-8710-cdda4d8e4a20" />
+          </property>
+          <property Id="0c7778c9-d538-4574-a70b-f038e0be23f4" name="Elements" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e60114dc-1cfc-41f8-b04f-64d986b3f451" />
+          </property>
+          <property Id="109e13fe-cf8b-41c6-b01a-a83f754f1f28" name="Binding" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2aaba9a6-3307-4339-be99-2b0b03b09b9a" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d48fff3a-a0c8-4ca3-b837-e0302d009c19" name="Compile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="54c97c56-43e2-4352-9c49-728123d78501" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="49d83529-b998-4cae-aec2-fbe201e8341d" name="Element" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bd905824-a39d-4827-9785-987111d92202" />
+        <ownedAttributesInternal>
+          <property Id="3518e76d-86fc-495c-bef3-bd7f0a4f4ce1" name="ElementType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ec861d22-e347-4b56-8f84-cffcc36f55f9" />
+          </property>
+          <property Id="608d85b8-42f3-4f46-85bd-7a9a82da1dc5" name="Model" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="548f7291-66a9-4b68-9f3a-5ba72b28dfb1" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="87dbef56-2f5b-4093-9814-629fae289b57" name="Compile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="18c0e41d-a2a0-4587-a168-c3ba07dfa239" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="68fbcdf9-72a5-486d-bbb4-b2b1eb3ee19e" name="ICompile" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0f3e70b1-1520-4796-84b5-fa1dca2958db" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="6a95193d-9fde-4412-bda8-6751d5f60090" name="Design">
+    <elementDefinition Id="a06bb7b2-c51d-423a-b465-9a7136504237" />
+    <profileInstances>
+      <packageHasProfileInstances Id="dd82194a-3a90-4a70-9c8a-e9cadfd3701e">
+        <profileInstance Id="ca9d5a01-0099-4675-a5b0-c8f7c4fda709" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="bfdc3c13-dfbf-4e81-8da5-f47566cee9bc">
+        <profileInstance Id="493aa8c2-016a-414d-9a74-e01b2d4aec58" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
